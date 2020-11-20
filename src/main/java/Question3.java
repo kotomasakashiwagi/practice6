@@ -13,7 +13,7 @@ public class Question3 implements Question{
             List<Integer> scan3SizeList = ListScanner.scanIntList(3);
             int maxIn3SizeList = UtilityOfList.calculateMaxInList(scan3SizeList);
             IntPrinter.printInt(maxIn3SizeList);
-        }catch (InputMismatchException e) {
+        } catch (InputMismatchException e) {
             System.err.println("正しい数字を入力してください");
         }
     }
