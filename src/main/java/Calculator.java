@@ -36,6 +36,4 @@ public class Calculator {
             fibonacciRecurrenceFormula(anPlus1, sum, targetOrder, fibonacciList, count);
         }
     }
-
-
 }
