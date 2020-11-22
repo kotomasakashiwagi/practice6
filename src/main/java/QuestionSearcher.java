@@ -11,8 +11,8 @@ public class QuestionSearcher {
             put("6-4", new Question4());
             put("6-5", new Question5());
             put("6-6", new Question6());
-            //put("6-7", new Question7());
-            //put("6-8", new Question8());
+            put("6-7", new Question7());
+            put("6-8", new Question8());
             put("err", new OutOfQuestion());
         }
     };

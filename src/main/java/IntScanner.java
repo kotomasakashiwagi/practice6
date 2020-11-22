@@ -20,6 +20,7 @@ public class IntScanner {
         }
         return scanX;
     }
+
     public static int scanOneToNine() {
         int scanX = scanIntX();
         if (scanX < 1 || scanX > 9) {

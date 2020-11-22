@@ -10,4 +10,9 @@ public class UtilityOfList {
         }
         return startElement;
     }
+
+    public static List<Integer> addToList(int element, List<Integer> list) {
+        list.add(element);
+        return list;
+    }
 }
