@@ -14,11 +14,11 @@ public class Calculator {
     }
 
     public static boolean isPrimeNumber(int naturalNumber) {
-        if (naturalNumber % 2 == 0) {
+        if ((naturalNumber != 2 && naturalNumber % 2 == 0) || naturalNumber < 2) {
             return false;
         } else {
             int sqrtN = (int) Math.sqrt(naturalNumber);
-            for (int i = 2; i < sqrtN; i++) {
+            for (int i = 2; i <= sqrtN; i++) {
                 if (naturalNumber % i == 0) {
                     return false;
                 }

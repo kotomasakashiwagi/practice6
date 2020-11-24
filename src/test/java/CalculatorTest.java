@@ -25,6 +25,10 @@ public class CalculatorTest {
     public void isPrimeNumber() {
         assertFalse(Calculator.isPrimeNumber(27));
         assertTrue(Calculator.isPrimeNumber(29));
+        assertFalse(Calculator.isPrimeNumber(1));
+        assertTrue(Calculator.isPrimeNumber(2));
+        assertTrue(Calculator.isPrimeNumber(10007));
+        assertFalse(Calculator.isPrimeNumber(9));
     }
 
 
